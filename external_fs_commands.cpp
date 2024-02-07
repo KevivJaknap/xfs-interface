@@ -97,6 +97,10 @@ void dump_attrcat() {
 			if ((char) slotmap[slotNum] == SLOT_UNOCCUPIED) {
 				strcpy(attrCatRecord[0].sval, "NULL");
 				strcpy(attrCatRecord[1].sval, "NULL");
+				attrCatRecord[2].nval = -1;
+				attrCatRecord[3].nval = -1;
+				attrCatRecord[4].nval = -1;
+				attrCatRecord[5].nval = -1;
 			}
 
 			// RelationName
